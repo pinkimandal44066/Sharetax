@@ -210,7 +210,7 @@ const Home = () => {
 </div> */}
 
 
-<div className="max-w-4xl lg:mx-auto  mx-5 py-12">
+<div className="max-w-4xl lg:mx-auto md:mx-10  mx-5 py-12">
   <p className="text-lg text-gray-800 mb-8 ">
     We provide financial solutions tailored to your needs. Our expertise ensures precision in financial management. From auditing to advisory services, we deliver results that drive growth. Partner with us to navigate financial complexities and achieve your goals.
   </p>
