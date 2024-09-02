@@ -948,7 +948,7 @@ const Navbar = () => {
   return (
     <div className={`w-full fixed top-0 left-0 transition-colors duration-300 ease-in-out ${isScrolled ? 
     "bg-blue-600 shadow-lg" : "bg-transparent"} z-50`}>
-      <div className="container mx-auto flex justify-between items-center py-4 px-5 lg:px-24 md:px-16 sm:px-10">
+      <div className=" mx-auto flex justify-between items-center py-4 px-5 lg:px-24 md:px-16 sm:px-10">
         <NavLink to="/">
           <img
             src={slogo}
@@ -960,7 +960,8 @@ const Navbar = () => {
         <div className="lg:hidden">
           <FiMenu
             onClick={() => setMenu(true)}
-            className="text-3xl sm:text-4xl md:text-5xl text-blue-600 rounded-full p-1 sm:p-2 cursor-pointer bg-white"
+            className="
+            text-3xl sm:text-4xl md:text-5xl text-blue-600 rounded-full p-1 sm:p-2 cursor-pointer bg-white "
           />
         </div>
 
@@ -1028,7 +1029,7 @@ const Navbar = () => {
               </NavLink>
 
               {/* Social icons */}
-              <div className="flex justify-center items-center text-2xl sm:text-3xl md:text-4xl gap-6 sm:gap-8 md:gap-10 mt-8">
+              <div className="flex justify-center   items-center text-2xl sm:text-3xl md:text-4xl gap-6 sm:gap-8 md:gap-10 mt-8">
                 <Link
                   to="https://www.facebook.com/"
                   target="_blank"
