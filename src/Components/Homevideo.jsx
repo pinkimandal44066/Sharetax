@@ -43,13 +43,13 @@ const Homevideo = () => {
           style={{ position: "relative" }}
         >
           <source
-            src="https://media.istockphoto.com/id/1849196332/video/close-up-hand-of-woman-using-calculator-for-calculate-checking-bills-taxes-bank-account.mp4?s=mp4-640x640-is&k=20&c=kjvK7YLFmJtCoPBfcvNyix9hqHlkWEOORTR26OlJZiQ="
+            // src="https://media.istockphoto.com/id/1849196332/video/close-up-hand-of-woman-using-calculator-for-calculate-checking-bills-taxes-bank-account.mp4?s=mp4-640x640-is&k=20&c=kjvK7YLFmJtCoPBfcvNyix9hqHlkWEOORTR26OlJZiQ="
             type="video/mp4"
           />
         </video>
       </div>
 
-      <nav>
+      {/* <nav>
         <div className="container mx-auto flex justify-between items-center cursor-pointer">
           <div className="left flex items-center ">
             <div className="absolute lg:top-6 top-4
@@ -110,16 +110,7 @@ const Homevideo = () => {
                   Services
                 </NavLink>
 
-                {/* <NavLink
-                  to="/enquiry"
-                  className={({ isActive }) =>
-                    `  ${
-                      isActive ? "text-blue-600" : "text-gray-700"
-                    } font-light text-2xl`
-                  }
-                >
-                  Enquiry
-                </NavLink> */}
+              
 
 
 
@@ -135,7 +126,7 @@ const Homevideo = () => {
                   Contact US
                 </NavLink>
 
-                {/* icons  */}
+   
 
                 <div className="flex justify-center items-center lg:text-4xl text-3xl gap-10">
                   <Link
@@ -166,7 +157,7 @@ const Homevideo = () => {
             </div>
           )}
         </div>
-      </nav>
+      </nav> */}
       
     </div>
   )

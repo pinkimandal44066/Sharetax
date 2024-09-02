@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <div>
             <Homevideo />
-      <NavbarScrollingpage />
+      {/* <NavbarScrollingpage /> */}
       <Home />
       <SideFrom />
     </div>

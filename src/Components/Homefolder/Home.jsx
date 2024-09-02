@@ -216,19 +216,23 @@ const Home = () => {
   </p>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-6">
     <div className="flex flex-col sm:flex-row items-center">
-      <img src="https://img.freepik.com/free-photo/young-successful-businessman-sitting-workplace-office-background_176420-5236.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Auditing" className="w-60 lg:w-32 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
+      <img src="https://img.freepik.com/free-photo/young-successful-businessman-sitting-workplace-office-background_176420-5236.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Auditing" 
+      className="w-60 lg:w-52 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
       <p className="text-gray-700 text-center sm:text-left">Accurate auditing for compliance.</p>
     </div>
     <div className="flex flex-col sm:flex-row items-center">
-      <img src="https://img.freepik.com/free-photo/young-successful-businessman-sitting-workplace-office-background_176420-5282.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Taxation" className="w-60 lg:w-32 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
+      <img src="https://img.freepik.com/free-photo/young-successful-businessman-sitting-workplace-office-background_176420-5282.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Taxation" 
+      className="w-60 lg:w-52 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
       <p className="text-gray-700 text-center sm:text-left">Expert tax strategies for optimization.</p>
     </div>
     <div className="flex flex-col sm:flex-row items-center">
-      <img src="https://img.freepik.com/free-photo/modern-office-composition-with-businessman_23-2147900141.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Advisory" className="w-60 lg:w-32 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
+      <img src="https://img.freepik.com/free-photo/modern-office-composition-with-businessman_23-2147900141.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Advisory" 
+      className="w-60 lg:w-52 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
       <p className="text-gray-700 text-center sm:text-left">Strategic advice for sustainable growth.</p>
     </div>
     <div className="flex flex-col sm:flex-row items-center">
-      <img src="https://img.freepik.com/free-photo/hands-holding-smatphone-young-handsome-stylish-hipster-man-black-jacket-sitting-office-table-business-style-white-shirt-isolated-working-laptop-start-up-work-place_285396-1469.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Bookkeeping" className="w-60 lg:w-32 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
+      <img src="https://img.freepik.com/free-photo/hands-holding-smatphone-young-handsome-stylish-hipster-man-black-jacket-sitting-office-table-business-style-white-shirt-isolated-working-laptop-start-up-work-place_285396-1469.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Bookkeeping"
+       className="w-60 lg:w-52 rounded-lg mb-2 sm:mb-0 sm:mr-4" />
       <p className="text-gray-700 text-center sm:text-left">Efficient bookkeeping for accurate records.</p>
     </div>
   </div>

@@ -304,7 +304,7 @@ const AboutUs = () => {
     <div className="bg-gray-50">
       
       {/* Hero Section */}
-      <img src={img3} alt=''/>
+      <img src={img3} alt='' />
       {/* <section className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-20">
         <h1 className="text-5xl font-bold mb-4">Welcome to [Your Firm's Name]</h1>
         <p className="text-lg mb-6">Expert Accounting and Financial Services</p>
