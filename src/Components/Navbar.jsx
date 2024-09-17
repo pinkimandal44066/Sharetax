@@ -923,9 +923,9 @@ import { IoCloseOutline } from "react-icons/io5";
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { NavLink, Link, useLocation } from "react-router-dom";
-
-import slogo from "../../public/slogo.jpeg";
-
+import sslogo from '../../public/sslogo.png';
+// import slogo from "../../public/slogo.jpeg";
+// import slogoo from '../../public/SSS.jpg';
 const Navbar = () => {
   const [isSideMenuOpen, setMenu] = useState(false);
   const [isScrolled, setScrolled] = useState(false);
@@ -949,13 +949,27 @@ const Navbar = () => {
     <div className={`w-full fixed top-0 left-0 transition-colors duration-300 ease-in-out ${isScrolled ? 
     "bg-blue-600 shadow-lg" : "bg-transparent"} z-50`}>
       <div className=" mx-auto flex justify-between items-center py-4 px-5 lg:px-24 md:px-16 sm:px-10">
-        <NavLink to="/">
+        {/* <NavLink to="/">
           <img
-            src={slogo}
+            src={sslogo}
             alt="Logo"
-            className="w-10 sm:w-12 md:w-14 lg:w-16 rounded-xl cursor-pointer"
+            className="w-10 bg-blue-600 sm:w-12 md:w-14 lg:w-16 rounded-xl cursor-pointer"
+          
           />
-        </NavLink>
+        </NavLink> */}
+
+
+<NavLink to="/" className="flex items-center">
+  <img
+    src={sslogo}
+    alt="Logo"
+    className="w-10 bg-blue-600 sm:w-12 md:w-14 lg:w-16 rounded-xl cursor-pointer"
+  />
+  <span className="ml-2 text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold text-white">
+    Share Tax
+  </span>
+</NavLink>
+
 
         <div className="lg:hidden">
           <FiMenu

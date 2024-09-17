@@ -77,7 +77,8 @@ const Home = () => {
         <h1 className="text-5xl font-bold mb-4"> About Us</h1>
         <p className="text-lg mb-6">we offer expert accounting and financial services tailored to the unique needs of businesses and individuals. Led by an experienced Chartered Accountant, our firm provides personalized solutions with a strong focus on integrity and professionalism. Our services include tax planning, auditing, financial advisory, and business consulting. We are committed to delivering reliable, growth-oriented financial guidance. Partner with us to achieve your financial goals with confidence.  </p>
         <NavLink to='/about-us'>
-        <button className="bg-white text-black font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-gray-100">
+        <button className="bg-blue-600 text-white hover:text-black font-semibold py-2 px-6 rounded-lg shadow-md
+         hover:bg-white">
           Learn More
         </button>
         </NavLink>
@@ -339,9 +340,9 @@ const Home = () => {
 
       <NavLink to="/service">
         <button
-          className="text-black flex  border-2 
-  border-gray-100 shadow-2xl bg-white 
-  font-semibold py-2.5 px-9 mt- rounded-lg mx-auto 
+          className=" flex  border-2 
+  border-gray-100 shadow-2xl  
+  font-semibold py-2.5 px-9 mt- rounded-lg mx-auto        bg-blue-600 text-white hover:text-black  hover:bg-white
     "
         >
           View All

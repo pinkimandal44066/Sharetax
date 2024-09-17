@@ -254,7 +254,8 @@ const FAQPage = () => {
        
         <div className="mt-8 text-center">
         <NavLink to='/faq'>
-          <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300 ease-in-out">
+          <button className=" font-semibold py-2 px-4 rounded  transition duration-300 ease-in-out
+                bg-blue-600 text-white hover:text-black  hover:bg-white">
             View All
           </button>
           </NavLink>

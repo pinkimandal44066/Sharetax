@@ -224,7 +224,7 @@ const Contactus = () => {
 
         {/* talk to us */}
         <div>
-          <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20 mx-5 lg:mt-20 mt-10 ">
+          <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20 mx-5 lg:mt-20 mt-10  mb-10 ">
             <div className="border-2 border-blue-600 overflow-hidden rounded-lg">
               <img
                 className="lg:w-[615px] lg:h-[477px] md:w-[515px] md:h-[277px] w-auto h-auto rounded"

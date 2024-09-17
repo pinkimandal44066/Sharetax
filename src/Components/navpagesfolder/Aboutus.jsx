@@ -299,6 +299,7 @@ import React from 'react';
 import Scrolling from '../Scrolling';
 import img3 from '../../../public/img3.png' ;
 import { NavLink } from 'react-router-dom';
+import Testimonials from '../../Components/Testimonials';
 const AboutUs = () => {
   return (
     <div className="bg-gray-50">
@@ -402,12 +403,31 @@ const AboutUs = () => {
               <h3 className="text-2xl font-semibold">Alex Johnson</h3>
               <p className="text-gray-700">Audit Manager</p>
             </div>
+            <div>
+            <img src="https://img.freepik.com/free-photo/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Team Member 2" className="w-full h-64 object-cover rounded-lg mb-4"/>
+
+              {/* <img src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393647.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Team Member 3" className="w-full h-64 object-cover rounded-lg mb-4"/> */}
+              <h3 className="text-2xl font-semibold">Alex Johnson</h3>
+              <p className="text-gray-700">Audit Manager</p>
+            </div>
+            <div>
+            <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Team Member 1" className="w-full h-64 object-cover rounded-lg mb-4"/>
+
+              {/* <img src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393647.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Team Member 3" className="w-full h-64 object-cover rounded-lg mb-4"/> */}
+              <h3 className="text-2xl font-semibold"> Johnson</h3>
+              <p className="text-gray-700">Audit Manager</p>
+            </div>
+            <div>
+              <img src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393647.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid" alt="Team Member 3" className="w-full h-64 object-cover rounded-lg mb-4"/>
+              <h3 className="text-2xl font-semibold">Alex </h3>
+              <p className="text-gray-700">Audit Manager</p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Client Testimonials Section */}
-      <section className="bg-gray-100 py-16">
+      {/* <section className="bg-gray-100 py-16">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Client Testimonials</h2>
           <div className="space-y-8">
@@ -431,10 +451,15 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+     
+
+<Testimonials />
+
 
       {/* Call-to-Action Section */}
-      <section className="bg-blue-700 text-white py-16">
+      <section className="bg-blue-700 text-white py-16 mb-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
           <p className="text-lg leading-7 mb-8">
