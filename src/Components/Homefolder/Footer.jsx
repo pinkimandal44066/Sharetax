@@ -384,7 +384,7 @@ const Footer = () => {
       <footer className="bg-blue-600 text-white py-8">
         <div className="max-w-screen-2xl mx-auto px-4">
           {/* Grid layout */}
-          <div className="grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-8">
+          <div className="grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-8">
             {/* Company Logo and Info */}
             <div className="flex flex-col items-start">
               <img
